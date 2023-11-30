@@ -1,0 +1,272 @@
+repo_name: britkern/conversational-form
+report_id: caebd209e30532acb60b449e3fad9990
+repo_type: Public
+timestamp: '2023-11-30T18:23:18+00:00'
+requested_by: eschaefer
+provider: github
+branch: master
+detected_tools_count: 22
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: LiveReload
+  description: CSS edits and image changes apply live. CoffeeScript, SASS, LESS and
+    others just work.
+  website_url: http://livereload.com
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Live Reloading
+  image_url: https://img.stackshare.io/service/2601/128.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2016-10-26 09:38:36.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2016-10-26 09:38:36.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: docs/index.html
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 15:35:38.000000000 Z
+- name: gulp-changed
+  description: Only pass through changed files
+  package_url: https://www.npmjs.com/gulp-changed
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16619/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-clean-css
+  description: Minify css with clean-css
+  package_url: https://www.npmjs.com/gulp-clean-css
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16301/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: github.com/britkern/conversational-form/blob/master/gulp-tasks/package.json
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  version: 2.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: github.com/britkern/conversational-form/blob/master/gulp-tasks/package.json
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-flatten
+  description: Remove or replace relative path for files
+  package_url: https://www.npmjs.com/gulp-flatten
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17193/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-livereload
+  description: Gulp plugin for livereload
+  package_url: https://www.npmjs.com/gulp-livereload
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16529/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-notify
+  description: Gulp plugin to send messages based on Vinyl Files or Errors to Mac
+    OS X, Linux or Windows using the node-notifier module
+  package_url: https://www.npmjs.com/gulp-notify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16337/default_19913b5a2ce8aaeed5a69f95974f9afd07e8e8bc.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-prompt
+  description: Add interactive console prompts to gulp
+  package_url: https://www.npmjs.com/gulp-prompt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17993/default_4fd967542aef030b38a14a6ad69d2f385c52808d.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: github.com/britkern/conversational-form/blob/master/gulp-tasks/package.json
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-stylus
+  description: Stylus plugin for gulp
+  package_url: https://www.npmjs.com/gulp-stylus
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16928/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-typescript
+  description: A typescript compiler for gulp with incremental compilation support
+  package_url: https://www.npmjs.com/gulp-typescript
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16141/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: github.com/britkern/conversational-form/blob/master/gulp-tasks/package.json
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: gulp-util
+  description: Utility functions for gulp plugins
+  package_url: https://www.npmjs.com/gulp-util
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-03-09 08:03:14.000000000 Z
+- name: nib
+  description: Stylus mixins and utilities
+  package_url: https://www.npmjs.com/nib
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17041/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2016-10-26 09:38:36.000000000 Z
+- name: stream
+  description: Node.js streams in the browser
+  package_url: https://www.npmjs.com/stream
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18008/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source: gulp-tasks/package.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2016-10-26 09:38:36.000000000 Z
+- name: promise-polyfill
+  description: Lightweight promise polyfill for the browser and node
+  package_url: http://bower.io/promise-polyfill
+  version: 6.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/britkern/conversational-form/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Felix Nielsen
+  last_updated_on: 2017-02-15 19:59:16.000000000 Z
